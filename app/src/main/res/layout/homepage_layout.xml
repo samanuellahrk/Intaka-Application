@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intakapic">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="215dp"
+        android:layout_height="255dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="518dp"
+
+        app:srcCompat="@drawable/intakalogo" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="380dp"
+        android:text="Intaka Map"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="307dp"
+        android:background="@drawable/button"
+        android:text="Plant Scanner"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="234dp"
+        android:background="@drawable/button"
+        android:text="Plants"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="166dp"
+        android:background="@drawable/button"
+        android:text="Birds"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:text="Information"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

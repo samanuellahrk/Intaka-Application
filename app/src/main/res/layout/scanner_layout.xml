@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intalake"
+    tools:context=".scanner"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="76dp"
+        android:fontFamily="sans-serif"
+        android:text="Scanner"
+        android:textAlignment="viewStart"
+        android:textColor="#284C27"
+        android:textSize="69sp"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/returnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="343dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/menureturn" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="249dp" />
+
+    <Button
+        android:id="@+id/selectBtn"
+        android:layout_width="168dp"
+        android:layout_height="37dp"
+        android:layout_above="@+id/imageView"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:text="Select Image"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/captureBtn"
+        android:layout_width="168dp"
+        android:layout_height="37dp"
+        android:layout_above="@+id/imageView"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:text="Capture Image"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/predictBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:text="Predict with refined model"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/predictBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:text="Predict with general model"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="343dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="114dp"
+        android:text=""
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="9000"
+        android:textSize="20sp"
+         />
+
+    <Button
+        android:id="@+id/moreDetailsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:text="More Details"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
+
