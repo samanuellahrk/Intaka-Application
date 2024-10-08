@@ -1,17 +1,5 @@
 # Intaka Island Application
 
-
-***
-
-## Name
-Intaka Island Application
-
-Links to gitlab project:
-
-git@gitlab.cs.uct.ac.za:developement-group/release-2.0.git
-
-https://gitlab.cs.uct.ac.za/developement-group/release-2.0.git
-
 ## Description
 The purpose of this project was to develop a mobile application for Intaka Island Nature Reserve in Cape 
 Town South Africa (https://intaka.co.za/). Intaka Island offers a unique urban wetland sanctuary, providing refuge to a diverse array of plant and bird species. The application's primary goal is to enhance the visitor experience and 
@@ -75,8 +63,6 @@ Department of Computer Science
 
 Email: Oddreb001@myuct.ac.za
 
-## Authors and acknowledgment
-Thank you to:
-- Rebecca Oddy, Gina Fornasari and Samuel Horak for your great contributions to this project!
+
 
 
